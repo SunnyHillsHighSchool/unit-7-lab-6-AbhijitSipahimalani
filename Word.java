@@ -1,18 +1,15 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Abhijit Sipahimalani
 
 import static java.lang.System.*;
 
 public class Word
 {
-   private static String vowels = "AEIOUaeiou";   	//why is this here?
-   																//why is it static?
-   private String word;
    //add an instance variable
 int count = 0;
 	//create a constructor
-public word ()
+public Word()
 {
   word ="";
 }	
