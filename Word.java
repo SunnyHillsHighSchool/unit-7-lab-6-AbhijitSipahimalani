@@ -6,8 +6,10 @@ import static java.lang.System.*;
 
 public class Word
 {
+  
    //add an instance variable
-int count = 0;
+private String word;
+private int count;
 	//create a constructor
 public Word()
 {
