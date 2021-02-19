@@ -15,14 +15,14 @@ public Word()
 {
   word ="";
 }	
-public static void getNumVowels() {
+public int getNumVowels() {
   for(int i = 0; i < word.length(); i++){
      if(word.valueOf(i) == "a"  || word.valueOf(i) ==  "A" || word.valueOf(i) ==  "e" || word.valueOf(i) ==  "E" || word.valueOf(i) ==  "i" || word.valueOf(i) ==  "I" || word.valueOf(i) ==  "o" || word.valueOf(i) ==  "O" || word.valueOf(i) ==  "u" || word.valueOf(i) ==   "U") {
     count += 1;
     
      }
   }
-  return count;
+return count;
 }
 	//look at the sample runner code
 	//on the lab handout
