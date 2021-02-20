@@ -33,7 +33,7 @@ return count;
 
 	//create a toString method
 public String toString(){
-return word
+return word;
 }
 public String getWord (){
   return word;
