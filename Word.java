@@ -15,26 +15,12 @@ public Word()
 {
   word ="";
 }	
-public Word(String a)
-{
-  word = a;
-}	
-
 public int getNumVowels() {
-char a = "a";
-char A = "A";
-char e = "e";
-char E = "E";
-char i = "i";
-char I = "I";
-char o = "o";
-char O = "O";
-char u = "u";
-char U = "U";
   for(int i = 0; i < word.length(); i++){
-     if(word.charAt(i) == a  || word.charAt(i) ==  A || word.charAt(i) ==  e || word.charAt(i) ==  E || word.charAt(i) ==  i || word.charAt(i) ==  I || word.charAt(i) ==  o || word.charAt(i) ==  O || word.charAt(i) ==  u || word.charAt(i) ==   U) {
+     if(word.charAt(i) == 'a' || word.charAt(i) ==  'A' || word.charAt(i) ==  'e' || word.charAt(i) ==  'E' || word.charAt(i) ==  'i' || word.charAt(i) ==  'I' || word.charAt(i) ==  'o' || word.charAt(i) ==  'O' || word.charAt(i) ==  'u' || word.charAt(i) ==   'U') {
     count += 1;
-     }   
+    
+     }
   }
 return count;
 }
@@ -43,7 +29,8 @@ return count;
 
 	//create a toString method
 public String toString(){
-  return word;
+  return Integer.toString(count);
+
 }
 public String getWord (){
   return word;
