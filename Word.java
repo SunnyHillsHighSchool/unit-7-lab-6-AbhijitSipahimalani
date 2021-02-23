@@ -41,5 +41,7 @@ public String getWord (){
 public void setWord (String s){
   word = s;
 }
-
+public int getLength (){
+  return word.length(); 
+} 
 }

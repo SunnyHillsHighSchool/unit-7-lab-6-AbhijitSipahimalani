@@ -11,5 +11,6 @@ public class Main
     Word one = new Word("chicken");
 out.println(one);
 out.println("num vowels == " + one.getNumVowels());
+out.println("num chars == " + one.getLength());
 	}
 }
